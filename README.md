@@ -34,7 +34,7 @@ Each incoming connection is handled in a separate thread, allowing the proxy to 
 3. Installation: 
 - Clone the repository:
 
-git clone https://github.com/yourusername/proxy-server.git
+git clone https://github.com/Kevinabizeiddaou/Proxy-Server.git
 cd proxy-server
 
 - Install Dependencies: This project uses Python 3 and the ssl module, which is part of the Python standard library. Make sure you have Python installed:
@@ -75,19 +75,17 @@ Port: 17903
 
 Example
 - Blocked Request:
-[*] Accepted connection from 127.0.0.1:54321
-[!] Blocked request to http://example.com
+Accepted connection from 127.0.0.1:54321
+Blocked request to http://example.com
 - Cached Request:
-[*] Serving http://example.com from cache (Not Modified)
+Serving http://example.com from cache (Not Modified)
 - HTTPS Request:
-[*] Accepted connection from 127.0.0.1:54321
-[*] Received response from https://google.com at 2024-09-22 15:45:12
-[*] Sent response to 127.0.0.1 at 2024-09-22 15:45:12
+Accepted connection from 127.0.0.1:54321
+Received response from https://google.com at 2024-09-22 15:45:12
+Sent response to 127.0.0.1 at 2024-09-22 15:45:12
+
 Contributing
 Feel free to contribute to this project by opening issues or submitting pull requests. Contributions in adding new features, improving caching, or enhancing security are welcome.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
 For any questions or suggestions, please open an issue or contact me at [kevinabizeiddaou@gmail.com].
